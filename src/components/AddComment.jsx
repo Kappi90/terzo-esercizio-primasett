@@ -72,7 +72,7 @@ class AddComment extends Component {
                 <Form.Control
                   as='textarea'
                   rows={3}
-                  placeholder='Your comment...'
+                  placeholder='Add comment...'
                   value={this.state.userComment.comment}
                   onChange={(e) => {
                     console.log(e.target.value);
